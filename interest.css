@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Denk+One);
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    overflow-x: hidden;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    background-color: aliceblue;
+}
+.navi a{
+    text-decoration: none;
+    padding: 1%;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 2px solid white;
+}
+.navi a:hover{
+    color: white;
+    background-color: black;
+}
+.navi a.active{
+      background-color: transparent;   
+}
+.navi a.active:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+#myvideo{
+    z-index: 0;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -5.4%;
+    position: relative;
+    z-index: 1;
+}
+#rights{
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 99%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Denk One', sans-serif;
+    color: rgb(112, 248, 173);  
+}
+.container{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+.container img{
+    padding: 1%;
+    transition-duration: 3s;
+}
+.container img:hover{
+    transform: rotateX(150deg);
+    transform: rotateX(-150deg);
+}
+h1{
+    color: white;
+}
+.text{
+    float: left;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: -3%;
+    margin-left: 0%;
+    padding: 5%;
+}
+.text p{
+    padding: 10%;
+    font-size: 350%;
+    color: rgb(88, 98, 241);
+}
+@media only screen and (max-width:600px){
+    #myvideo{
+        size: 500%;
+        overflow: hidden;
+        width: auto;
+        height: 100%;
+    }
+    
+}
