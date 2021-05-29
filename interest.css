@@ -59,6 +59,20 @@ footer{
     font-family: 'Denk One', sans-serif;
     color: rgb(112, 248, 173);  
 }
+#container1{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    margin-left: 0%;
+}
+#spotify{
+    justify-content: center;
+    margin-left: 30%;
+     margin-top: 3%;
+    }
 .container{
     float: left;
     display: flex;
@@ -74,6 +88,7 @@ footer{
     border-radius: 2%;
     padding: 1%;
     transition-duration: 3s;
+    width: 30%;
 }
 .container img:hover{
     transform: rotateX(150deg);
@@ -85,26 +100,94 @@ h1{
 .text{
     float: left;
     display: flex;
-    color: white;
     flex-direction: row;
     z-index: 1;
     position: absolute;
     width: 100%;
-    margin-top: -3%;
+    margin-top: 3%;
     margin-left: 0%;
-    padding: 5%;
 }
 .text p{
     padding: 10%;
     font-size: 350%;
     color: rgb(88, 98, 241);
 }
-@media only screen and (max-width:600px){
-    #myvideo{
-        size: 500%;
-        overflow: hidden;
-        width: auto;
-        height: 100%;
-    }
-    
+@media only screen and (max-width: 800px) {
+        /* For mobile phones: */
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40%;
+    margin-left: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    border: 2px solid white;
+    border-radius: 2%;
+    padding: 3%;
+    transition-duration: 3s;
+     /* margin-left: 23%; */
+     width: 70%;
+     margin-top: 7%;
+}
+#spotify{
+justify-content: center;
+ margin-top: 3%;
+}
+.navi{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 16%;
+    overflow-y: scroll ;
+}
+
+.navi a{
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 2px solid white;
+    font-size: 100%;
+}
+h1{
+    margin-top: 0%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -33%;
+}
+.text p{
+    margin-top: 25%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+#myvideo{
+   display: none;
+}
+#container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 210%;
+    float: left;
+}
+hr{
+width: 100vw;
+}
+footer{
+    margin-top: 240%;
+    float: bottom;
+}
+#rights{
+    float: bottom;
+}
 }
