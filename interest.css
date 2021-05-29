@@ -36,6 +36,13 @@ body{
     color: rgb(0, 0, 0);
     background-color: aliceblue;
 }
+#mystage{
+    width: 100%;
+    z-index: 0;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
 #myvideo{
     z-index: 0;
     width: 100%;
@@ -171,8 +178,22 @@ h1{
 overflow-x: hidden;
 overflow-y: hidden;
 }
+#mystage{
+    width: 100%;
+    margin-bottom: 0%;
+    height: 170%;
+    z-index: -1;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+}
 #myvideo{
-   display: none;
+   z-index: -1;
+   height: 200%;
+   transform:scale(5.09)rotate(90deg);;
 }
 #container1{
     display: flex;
