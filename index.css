@@ -4,12 +4,12 @@
     padding: 0%;
 }
 #myvideo{
-    z-index: 0;
+    /* z-index: 0; */
     min-width: 100%;
     min-height: 100%;
     padding: 0%;
     margin: 0%;
-    position: fixed;
+    /* position: fixed; */
     overflow-x :clip;
 }
 body{
@@ -31,7 +31,7 @@ body{
     width: 100%;
     background-color: aliceblue;
     margin-top: 0%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .navi a{
     text-decoration: none;
@@ -45,7 +45,7 @@ body{
     background-color: black;
 }
 .navi a.active{
-      background-color: transparent;   
+      background-color: transparent;
 }
 .navi a.active:hover{
     color: rgb(0, 0, 0);
@@ -72,7 +72,7 @@ p{
     z-index: 1;
     margin-top: 5%;
     font-family: 'Denk One', sans-serif;
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
     /* margin-left: 39%; */
@@ -95,7 +95,7 @@ footer{
     text-align: center;
     justify-content: center;
     font-family: 'Denk One', sans-serif;
-    color: rgb(159, 231, 241);  
+    color: rgb(159, 231, 241);
 }
 
 @media only screen and (max-width: 850px){
@@ -119,6 +119,5 @@ footer{
         background-color: aliceblue;
         overflow-y: scroll;
     }
-    
-}
 
+}
