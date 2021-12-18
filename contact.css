@@ -6,12 +6,12 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: black;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: rgb(9, 142, 231);
 }
 .navi{
     z-index: 1;
@@ -33,7 +33,7 @@ body{
     background-color: black;
 }
 .navi a.active{
-      background-color: transparent;   
+      background-color: transparent;
 }
 .navi a.active:hover{
     color: rgb(0, 0, 0);
@@ -52,7 +52,7 @@ h1{
     z-index: 1;
     margin-top: 5%;
     font-family: 'Denk One', sans-serif;
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255);
     justify-content: center;
     text-align: center;
 }
@@ -99,7 +99,7 @@ footer{
     text-align: center;
     justify-content: center;
     font-family: 'Denk One', sans-serif;
-    color: rgb(159, 231, 241);  
+    color: rgb(159, 231, 241);
 }
 @media only screen and (max-width: 850px){
     /* body{
@@ -122,5 +122,5 @@ footer{
         background-color: aliceblue;
         overflow-y: scroll;
     }
-    
+
 }
