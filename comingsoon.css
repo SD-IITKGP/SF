@@ -1,0 +1,42 @@
+body{
+  background-color: #117ac9;
+  overflow-y:hidden;
+}
+strong{
+  position: absolute;
+  margin: 7% 5%;
+  color: white;
+  font-size: 200%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.message{
+  padding: 15% 5%;
+  color: white;
+  font-size: 600%;
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  display: inline-block;
+  color: white;
+  padding: 0 5%;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+img{
+  float: right;
+  border-radius: 100%;
+  margin-right: 10%
+}
+footer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 9% 0;
+    margin-bottom: 0;
+}
+.rights{
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 99%;
+    font-family: 'Denk One', sans-serif;
+    color: rgb(159, 231, 241);
+}
