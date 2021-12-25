@@ -1,0 +1,46 @@
+/* elements */
+body{
+  background-color: #04293A !important;
+  text-align: center;
+}
+h1{
+  padding: 5% 10% 10%;
+  color: #ECB365;
+  font-size: 600% !important;
+  font-family: 'Permanent Marker', cursive;
+}
+h2{
+  padding: 5% 0;
+  color: #FDF5CA;
+}
+a{
+  text-decoration: none !important;
+  padding:0 3%;
+  font-size: 200%;
+  color: #FF5F7E !important;
+}
+nav{
+  padding: 0.5% 0;
+}
+footer{
+  text-align: center;
+}
+p{
+  padding: 1% 0 0 !important;
+  margin-bottom: 0 !important;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* classes */
+.mainClass{
+  text-align: center;
+}
+.draw{
+  display: none;
+}
+.player1{
+  display: none;
+}
+.player2{
+  display: none;
+}
