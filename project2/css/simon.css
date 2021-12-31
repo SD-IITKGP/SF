@@ -1,0 +1,38 @@
+/* tags */
+h1{
+  text-align: center;
+  padding-top: 5%;
+}
+/* classes */
+.Div1{
+  background-color: green;
+  border: solid 8px;
+  border-radius: 20%;
+  width: 50%;
+  height: 18rem;
+  margin: 5% auto;
+}
+.Div2{
+  background-color: red;
+  border: solid 8px;
+  border-radius: 20%;
+  width: 50%;
+  height: 18rem;
+  margin: 5% auto;
+}
+.Div3{
+  background-color: yellow;
+  border: solid 8px;
+  border-radius: 20%;
+  width: 50%;
+  height: 18rem;
+  margin: 5% auto;
+}
+.Div4{
+  background-color: blue;
+  border: solid 8px;
+  border-radius: 20%;
+  width: 50%;
+  height: 18rem;
+  margin: 5% auto;
+}
