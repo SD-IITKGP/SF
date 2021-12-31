@@ -1,10 +1,14 @@
 /* tags */
+.bgColor{
+  background-color: #FF7F3F !important;
+}
 h1{
   text-align: center;
   padding-top: 5%;
+  font-family: 'Monoton', cursive;
 }
 /* classes */
-.Div1{
+.green{
   background-color: green;
   border: solid 8px;
   border-radius: 20%;
@@ -12,7 +16,7 @@ h1{
   height: 18rem;
   margin: 5% auto;
 }
-.Div2{
+.red{
   background-color: red;
   border: solid 8px;
   border-radius: 20%;
@@ -20,7 +24,7 @@ h1{
   height: 18rem;
   margin: 5% auto;
 }
-.Div3{
+.yellow{
   background-color: yellow;
   border: solid 8px;
   border-radius: 20%;
@@ -28,7 +32,7 @@ h1{
   height: 18rem;
   margin: 5% auto;
 }
-.Div4{
+.blue{
   background-color: blue;
   border: solid 8px;
   border-radius: 20%;
