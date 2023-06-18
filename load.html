@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loading</title>
+        <meta name="description" content="Loading page for Web3 domains">
+        <meta name="author" content="Sourabh Choudhary">
+        <meta name="keywords" content="html,css,javascript">
+    </head>
+    <body>
+        <h1>LOADING.....</h1>
+    </body>
+    <script>
+        const domain = decodeURI(window.location.search).split("?")[1].split("=")[1];
+
+        fetch("https://backend.how3.me/explore/" + domain)
+        .then((response) => {
+        return response.json();
+        })
+        .then((res) => {
+        if (res != null) {
+            const data = res.domain_name.find(
+            (element) => element.name === domain
+            );
+            window.location.href=data.ipfs_link;
+        }
+
+        })
+        .catch(err=>{console.log(err)});
+    </script>
+</html>
