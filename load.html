@@ -10,7 +10,7 @@
         <h1>LOADING.....</h1>
     </body>
     <script>
-        const domain = decodeURI(window.location.search).split("?")[1].split("=")[1];
+        const domain = window.location.href.split("/")[2];
 
         fetch("https://backend.how3.me/explore/" + domain)
         .then((response) => {
